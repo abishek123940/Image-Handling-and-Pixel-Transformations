@@ -50,7 +50,7 @@ plt.show()
   
 ```python
 # Load the image
-image = cv2.imread('image.jpeg')
+image = cv2.imread('bro.jpeg')
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -87,7 +87,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('image.jpeg') 
+image = cv2.imread('bro.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -107,7 +107,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('image.jpeg') 
+image = cv2.imread('bro.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -125,7 +125,7 @@ plt.show()
 * Convert the image from RGB to HSV and display it.
 
 ```python
-image = cv2.imread('image.jpeg')
+image = cv2.imread('bro.jpeg')
 
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -197,7 +197,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('image.jpeg')
+image = cv2.imread('bro.jpeg')
 
 image.shape
 
@@ -219,7 +219,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('image.jpeg')
+image = cv2.imread('bro.jpeg')
 
 image.shape
 
@@ -241,7 +241,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('image.jpeg')
+image = cv2.imread('bro.jpeg')
 
 # Flip the image horizontally (left-right)
 flipped_horizontally = cv2.flip(image, 1)
